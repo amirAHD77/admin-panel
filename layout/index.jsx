@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { LayoutContainer } from "./index.style";
-import Drawer from "./components/drawer";
+import Drawer from "./components/drawer/index";
 import Themes from "../utils/themes";
 
 const Layout = (props) => {

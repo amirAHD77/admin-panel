@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: "build",
+
   reactStrictMode: false,
   env: {
     MAIN_PATH: "https://api.inpointconnect.ir/",
