@@ -23,7 +23,7 @@ const AddEvent = (props) => {
         setLoading(true);
 
         const teacher = await Axios.post(
-          process.env.MAIN_PATH + "v1/teacher",
+          "v1/teacher",
           {
             user_name: values.teacherUserName,
             first_name: values.teacherName,
@@ -38,7 +38,7 @@ const AddEvent = (props) => {
         );
 
         const addClass = await Axios.post(
-          process.env.MAIN_PATH + "v1/class",
+          "v1/class",
           {
             name: values.name,
             login_type: values.type,
